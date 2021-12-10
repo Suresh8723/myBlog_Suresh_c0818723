@@ -24,21 +24,7 @@ p{
     margin: 10px 0;
 }
 
-.bg-dark {
-    background: #333;
-    color: #fff;
-  }
-  
-  .bg-light {
-    background: #f4f4f4;
-    color: #333;
-  }
-  
-  .bg-primary {
-    background: #f7c08a;
-    color: #333;
-  }
-  
+
 
 .text-primary{
     color: aqua;
