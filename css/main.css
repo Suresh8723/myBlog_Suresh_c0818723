@@ -24,6 +24,22 @@ p{
     margin: 10px 0;
 }
 
+.bg-dark {
+    background: #333;
+    color: #fff;
+  }
+  
+  .bg-light {
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  .bg-primary {
+    background: #f7c08a;
+    color: #333;
+  }
+  
+
 .text-primary{
     color: aqua;
     width: 80%;
@@ -237,4 +253,38 @@ footer .social{
 footer a{
     padding: 10px;
 
+}
+
+/* styles for mobile */
+
+@media(max-width: 768px) {
+    #navbar {
+        flex-direction: column;
+        height: 120px;
+        
+    }
+
+    .container{
+        display: flex;
+    }
+    
+
+
+    #navbar a {
+        padding: 10px 10px;
+        margin: 0 3px;
+    }
+
+    .flex-items {
+        flex-direction: column;
+    }
+
+    .flex-columns .column, .flex-grid .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .team img {
+        width: 70%;
+    }
 }
