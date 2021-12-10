@@ -26,6 +26,7 @@ p{
 
 .text-primary{
     color: aqua;
+    width: 80%;
 }
 
 .container{
@@ -171,6 +172,16 @@ aside .btn {
     justify-content: space-evenly;
     text-align: center;
     height: 100%;
+
+}
+.services{
+
+    background-color: aqua;
+}
+.services p{
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
 
 }
 .skills{
