@@ -24,7 +24,21 @@ p{
     margin: 10px 0;
 }
 
-
+.bg-dark {
+    background: #333;
+    color: #fff;
+  }
+  
+  .bg-light {
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  .bg-primary {
+    background: #f7c08a;
+    color: #333;
+  }
+  
 
 .text-primary{
     color: aqua;
@@ -247,13 +261,9 @@ footer a{
 @media(max-width: 768px) {
     .conatiner {
         flex-direction: column;
-        height: 100px;
-        
-        
-    }
-
-    .container{
-        padding-left: 0;
+        width: 80vw;
+        height: 70vh;
+        overflow: auto;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -262,9 +272,10 @@ footer a{
     .container .logo{
         display: block;
     }
-    
-    .banner {
-        margin-top: 100px;
+
+    #experiences a .btn{
+        width: 0.2rem;
+
     }
     .content{
         line-height: 0.5rem;
@@ -293,7 +304,8 @@ footer a{
         align-items: center;
         justify-content: center;
     }
-    .experiences p{
+    .experience{
+        width: 80vw;
         
     }
    
@@ -301,6 +313,9 @@ footer a{
     .services{
         border-radius: 15px;
     }
+    /* .skills{
+        display: none;
+    } */
     .flex-items {
         flex-direction: column;
     }
@@ -310,5 +325,9 @@ footer a{
         width: 70%;
     }
 
-   
+    footer .social {
+        margin: 0;
+        padding: 1.2rem;
+        background-color: #fff;   
+    }
 }
